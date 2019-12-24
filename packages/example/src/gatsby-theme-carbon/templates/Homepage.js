@@ -1,9 +1,9 @@
 import React from 'react';
 import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-import { calloutLink } from './Homepage.module.scss';
+import { calloutLink, bannerTitle } from './Homepage.module.scss';
 
-import Carbon from '../../images/carbon.jpg';
+import Carbon from '../../images/homepage-bg.jpg';
 
 const FirstLeftText = () => <p>Callout component</p>;
 
@@ -36,13 +36,13 @@ const SecondRightText = () => (
   </p>
 );
 
-const BannerText = () => <h1>Banner component</h1>;
+const BannerText = () => <h1 className={bannerTitle}>Relax! Renew.</h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
   FirstCallout: (
     <HomepageCallout
-      backgroundColor="#030303"
+      backgroundColor="#81338a"
       color="white"
       leftText={FirstLeftText}
       rightText={FirstRightText}
