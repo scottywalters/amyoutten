@@ -54,7 +54,7 @@ const Header = ({ children }) => {
         >
           {children}
         </Link>
-        <HeaderGlobalBar>
+        {/* <HeaderGlobalBar>
           {isSearchEnabled && <GlobalSearch />}
           <HeaderGlobalAction
             className={cx(headerButton, switcherButton, {
@@ -69,7 +69,7 @@ const Header = ({ children }) => {
           >
             {switcherIsOpen ? <Close20 /> : <AppSwitcher20 />}
           </HeaderGlobalAction>
-        </HeaderGlobalBar>
+        </HeaderGlobalBar> */}
       </ShellHeader>
     </>
   );

@@ -1,7 +1,7 @@
 /* eslint-disable import/no-unresolved */
 import React, { useLayoutEffect } from 'react';
 
-import LeftNav from './LeftNav';
+// import LeftNav from './LeftNav';
 import Meta from './Meta';
 import Header from './Header';
 import Switcher from './Switcher';
@@ -20,7 +20,7 @@ const Layout = ({
   pageKeywords,
   tabs,
 }) => {
-  const is404 = children.key === null;
+  // const is404 = children.key === null;
 
   useLayoutEffect(() => {
     // eslint-disable-next-line global-require
@@ -45,7 +45,7 @@ const Layout = ({
       />
       <Header />
       <Switcher />
-      <LeftNav homepage={homepage} is404Page={is404} theme={theme} />
+      {/* <LeftNav homepage={homepage} is404Page={is404} theme={theme} /> */}
       <Container homepage={homepage} theme={theme}>
         {children}
         <Footer />
