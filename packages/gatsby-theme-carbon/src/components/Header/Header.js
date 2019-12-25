@@ -21,6 +21,7 @@ import {
   headerName,
   collapsed,
   headerButton,
+  headerPhone,
   switcherButton,
 } from './Header.module.scss';
 
@@ -54,22 +55,9 @@ const Header = ({ children }) => {
         >
           {children}
         </Link>
-        {/* <HeaderGlobalBar>
-          {isSearchEnabled && <GlobalSearch />}
-          <HeaderGlobalAction
-            className={cx(headerButton, switcherButton, {
-              [switcherButtonOpen]: switcherIsOpen,
-            })}
-            aria-label="Switch"
-            onClick={() => {
-              toggleNavState('switcherIsOpen');
-              toggleNavState('searchIsOpen', 'close');
-              toggleNavState('leftNavIsOpen', 'close');
-            }}
-          >
-            {switcherIsOpen ? <Close20 /> : <AppSwitcher20 />}
-          </HeaderGlobalAction>
-        </HeaderGlobalBar> */}
+        <HeaderGlobalBar>
+          <h4 className={cx(headerPhone)}>(555) 123.4567</h4>
+        </HeaderGlobalBar>
       </ShellHeader>
     </>
   );
