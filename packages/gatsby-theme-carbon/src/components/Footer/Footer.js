@@ -25,28 +25,7 @@ const Footer = ({ Content, links, Logo }) => {
       <Grid className={grid}>
         <Row>
           <Column colLg={2} colMd={2}>
-            <ul className={nav}>
-              {firstCol &&
-                firstCol.map((link, i) => (
-                  <li key={i} className={listItem}>
-                    <a href={link.href} aria-label={link.linkText}>
-                      {link.linkText}
-                    </a>
-                  </li>
-                ))}
-            </ul>
-          </Column>
-          <Column colLg={2} colMd={2}>
-            <ul className={nav}>
-              {secondCol &&
-                secondCol.map((link, i) => (
-                  <li key={i} className={listItem}>
-                    <a href={link.href} aria-label={link.linkText}>
-                      {link.linkText}
-                    </a>
-                  </li>
-                ))}
-            </ul>
+            <Logo />
           </Column>
           <Column
             className={content}
@@ -58,11 +37,11 @@ const Footer = ({ Content, links, Logo }) => {
             <Content buildTime={site.buildTime} />
           </Column>
         </Row>
-        <Row>
+        {/* <Row>
           <Column colLg={3}>
             <Logo />
           </Column>
-        </Row>
+        </Row> */}
       </Grid>
     </footer>
   );

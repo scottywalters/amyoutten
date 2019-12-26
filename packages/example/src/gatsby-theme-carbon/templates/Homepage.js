@@ -1,7 +1,7 @@
 import React from 'react';
 import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-import { calloutLink, bannerTitle } from './Homepage.module.scss';
+import { bannerTitle } from './Homepage.module.scss';
 
 import Carbon from '../../images/homepage-bg.jpg';
 
@@ -15,11 +15,12 @@ const FirstRightText = () => (
   </p>
 );
 
-const SecondLeftText = () => <p>Book an Appointment</p>;
+const SecondLeftText = () => <p id="bookAnAppointment">Book an Appointment</p>;
 
 const SecondRightText = () => (
   <p>
-    To schedule an appointment, call <strong>(555) 123-4567</strong>
+    To schedule an appointment, <br />
+    call <strong>(555) 123-4567</strong>
   </p>
 );
 

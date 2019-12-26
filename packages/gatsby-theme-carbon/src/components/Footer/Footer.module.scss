@@ -8,7 +8,7 @@
 }
 
 .grid {
-  min-height: 370px;
+  min-height: 320px;
   padding-top: $spacing-07;
   padding-bottom: $spacing-07;
   display: flex;
@@ -84,5 +84,5 @@
 
 .logo {
   fill: $carbon--gray-10;
-  margin-top: $spacing-07;
+  margin-top: 0;
 }
