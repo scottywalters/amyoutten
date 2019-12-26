@@ -28,5 +28,12 @@ export const onRenderBody = ({ setHeadComponents }) => {
       dangerouslySetInnerHTML={{ __html: script }}
     />,
     <meta key="gtc-version" name="gtc-version" content={version} />,
+    <script
+      type="text/javascript"
+      id="hs-script-loader"
+      async
+      defer
+      src="//js.hs-scripts.com/4428621.js"
+    />,
   ]);
 };
