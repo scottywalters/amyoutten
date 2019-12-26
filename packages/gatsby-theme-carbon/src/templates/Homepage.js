@@ -4,8 +4,6 @@ import { HomepageBanner, HomepageCallout } from '../components/Homepage';
 import Carbon from '../images/carbon.jpg';
 import Main from '../components/Main';
 
-import BackToTopBtn from '../components/BackToTopBtn';
-
 const Homepage = ({
   children,
   Banner,
@@ -29,7 +27,6 @@ const Homepage = ({
       {FirstCallout}
       <Main>{children}</Main>
       {SecondCallout}
-      <BackToTopBtn />
     </Layout>
   );
 };

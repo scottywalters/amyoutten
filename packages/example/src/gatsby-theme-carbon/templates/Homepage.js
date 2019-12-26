@@ -9,9 +9,9 @@ const FirstLeftText = () => <h2>Reduce Stress</h2>;
 
 const FirstRightText = () => (
   <p>
-    A day at the spa is a great way to <code>relax</code>. Moreover, many of our
-    clients have reported feeling <code>less stressed</code>&nbsp; for days and
-    even weeks after their appointments!
+    A day at the spa is a great way to relax. Moreover, many of our clients have
+    reported feeling less stressed for days and even weeks after their
+    appointments!
   </p>
 );
 
