@@ -5,8 +5,8 @@ const defaultLunrOptions = require('./config/lunr-options');
 
 module.exports = themeOptions => {
   const repositoryDefault = {
-    baseUrl: '',
-    subDirectory: '',
+    baseUrl: 'https://github.com/scottywalters/amyoutten',
+    subDirectory: '/packages/example',
     branch: 'master',
   };
 

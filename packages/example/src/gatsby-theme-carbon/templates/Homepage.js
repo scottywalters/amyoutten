@@ -5,28 +5,21 @@ import { calloutLink, bannerTitle } from './Homepage.module.scss';
 
 import Carbon from '../../images/homepage-bg.jpg';
 
-const FirstLeftText = () => <p>Callout component</p>;
+const FirstLeftText = () => <h2>Reduce Stress</h2>;
 
 const FirstRightText = () => (
   <p>
-    This is a callout component. You can edit the contents by updating the
-    pre-shadowed homepage template. You can provide <code>color</code> and{' '}
-    <code>backgroundColor</code> props to suit your theme.
+    A day at the spa is a great way to <code>relax</code>. Moreover, many of our
+    clients have reported feeling <code>less stressed</code>&nbsp; for days and
+    even weeks after their appointments!
   </p>
 );
 
-const SecondLeftText = () => <p>Callout component</p>;
+const SecondLeftText = () => <p>Book an Appointment</p>;
 
 const SecondRightText = () => (
   <p>
-    You can also not use these components at all by not providing the callout
-    props to the template or writing your own template.
-    <a
-      className={calloutLink}
-      href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/master/packages/example/src/gatsby-theme-carbon/templates/Homepage.js"
-    >
-      Homepage source →
-    </a>
+    To schedule an appointment, call <strong>(555) 123.4567</strong>
   </p>
 );
 

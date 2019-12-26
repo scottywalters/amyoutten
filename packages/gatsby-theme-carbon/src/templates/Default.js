@@ -5,13 +5,12 @@ import { useStaticQuery, graphql } from 'gatsby';
 import BackToTopBtn from '../components/BackToTopBtn';
 import Layout from '../components/Layout';
 import PageHeader from '../components/PageHeader';
-import EditLink from '../components/EditLink';
 import NextPrevious from '../components/NextPrevious';
 import PageTabs from '../components/PageTabs';
 import Main from '../components/Main';
 
 const Default = ({ pageContext, children, location, Title }) => {
-  const { frontmatter = {}, relativePagePath, titleType } = pageContext;
+  const { frontmatter = {}, titleType } = pageContext;
   const { tabs, title, theme, description, keywords } = frontmatter;
 
   // get the path prefix if it exists
@@ -48,10 +47,7 @@ const Default = ({ pageContext, children, location, Title }) => {
     >
       <PageHeader title={Title ? <Title /> : title} label="label" tabs={tabs} />
       {tabs && <PageTabs slug={slug} tabs={tabs} currentTab={currentTab} />}
-      <Main padded>
-        {children}
-        <EditLink relativePagePath={relativePagePath} />
-      </Main>
+      <Main padded>{children}</Main>
       <NextPrevious
         pageContext={pageContext}
         location={location}
