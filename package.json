@@ -68,5 +68,8 @@
       "stylelint --fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "gatsby-plugin-offline": "^3.0.30"
   }
 }
