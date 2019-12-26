@@ -19,7 +19,7 @@ const SecondLeftText = () => <p>Book an Appointment</p>;
 
 const SecondRightText = () => (
   <p>
-    To schedule an appointment, call <strong>(555) 123.4567</strong>
+    To schedule an appointment, call <strong>(555) 123-4567</strong>
   </p>
 );
 

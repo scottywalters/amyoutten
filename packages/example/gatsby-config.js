@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme Carbon',
-    description: 'A Gatsby theme for the carbon design system',
-    keywords: 'gatsby,theme,carbon',
+    title: 'Amy outten - Massage Therapy',
+    description: 'Message therapy by Amy outten',
+    keywords: 'message,spa,relax,renew',
   },
   pathPrefix: `/gtc`,
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Carbon Design Gatsby Theme',
-        short_name: 'Gatsby Theme Carbon',
+        name: 'Amy outten - Massage Therapy',
+        short_name: 'Amy Outten',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#0062ff',
