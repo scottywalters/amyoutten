@@ -15,12 +15,11 @@ const FirstRightText = () => (
   </p>
 );
 
-const SecondLeftText = () => <p>Callout component</p>;
+const SecondLeftText = () => <p>Book an Appointment</p>;
 
 const SecondRightText = () => (
   <p>
-    You can also not use these components at all by not providing the callout
-    props to the template or writing your own template.
+    To schedule an appointment, call <code>(555) 123.4567</code>
   </p>
 );
 
