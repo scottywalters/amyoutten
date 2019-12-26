@@ -5,7 +5,6 @@ import Carbon from '../images/carbon.jpg';
 import Main from '../components/Main';
 
 import BackToTopBtn from '../components/BackToTopBtn';
-import NextPrevious from '../components/NextPrevious';
 
 const Homepage = ({
   children,
@@ -30,7 +29,6 @@ const Homepage = ({
       {FirstCallout}
       <Main>{children}</Main>
       {SecondCallout}
-      <NextPrevious location={location} pageContext={pageContext} />
       <BackToTopBtn />
     </Layout>
   );

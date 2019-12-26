@@ -12,12 +12,6 @@ const FirstRightText = () => (
     This is a callout component. You can edit the contents by updating the
     pre-shadowed homepage template. You can provide <code>color</code> and{' '}
     <code>backgroundColor</code> props to suit your theme.
-    <a
-      className={calloutLink}
-      href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/master/packages/example/src/gatsby-theme-carbon/templates/Homepage.js"
-    >
-      Homepage source →
-    </a>
   </p>
 );
 
@@ -42,7 +36,7 @@ const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
   FirstCallout: (
     <HomepageCallout
-      backgroundColor="#81338a"
+      backgroundColor="#b4865a"
       color="white"
       leftText={FirstLeftText}
       rightText={FirstRightText}

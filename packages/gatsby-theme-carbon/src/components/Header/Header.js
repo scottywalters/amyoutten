@@ -38,7 +38,7 @@ const Header = ({ children }) => {
     <>
       <ShellHeader aria-label="Header" className={header}>
         <SkipToContent href="#main-content" className={skipToContent} />
-        <HeaderMenuButton
+        {/* <HeaderMenuButton
           className={cx('bx--header__action--menu', headerButton)}
           aria-label="Open menu"
           onClick={() => {
@@ -46,7 +46,7 @@ const Header = ({ children }) => {
             toggleNavState('switcherIsOpen', 'close');
           }}
           isActive={leftNavIsOpen}
-        />
+        /> */}
         <Link
           className={cx(headerName, {
             [collapsed]: searchIsOpen,
