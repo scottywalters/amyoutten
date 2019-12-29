@@ -15,16 +15,16 @@ const FirstRightText = () => (
   </p>
 );
 
-const SecondLeftText = () => <p id="bookAnAppointment">Book an Appointment</p>;
+const SecondLeftText = () => <p id="bookAnAppointment">By Appointment Only</p>;
 
 const SecondRightText = () => (
   <p>
     To schedule an appointment, <br />
-    call <strong>(555) 123-4567</strong>
+    call <strong>(904) 556-0648</strong>
   </p>
 );
 
-const BannerText = () => <h1 className={bannerTitle}>Relax! Renew.</h1>;
+const BannerText = () => <h1 className={bannerTitle}>Relax</h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
