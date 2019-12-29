@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-theme-carbon",
-  "version": "1.18.2",
+  "name": "amyoutten",
+  "version": "1.0",
   "main": "index.js",
-  "author": "vpicone <vp@vincepic.one> (@vpicone)",
+  "author": "scottywalters <scottywalters99@gmail.com> (@scottywalters99)",
   "repository": {
     "url": "git@github.com:carbon-design-system/gatsby-theme-carbon.git",
     "type": "git"

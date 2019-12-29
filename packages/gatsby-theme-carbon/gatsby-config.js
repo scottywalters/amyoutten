@@ -41,10 +41,10 @@ module.exports = themeOptions => {
   return {
     siteMetadata: {
       isSearchEnabled,
-      title: 'Gatsby Theme Carbon',
+      title: 'Amy Outten - Message Therapy',
       description:
-        'Add a description by supplying it to siteMetadata in your gatsby-config.js file.',
-      keywords: 'gatsby,theme,carbon,design',
+        'Amy Outten is a licensed Massage Therapist in Fernandina Beach, Florida.',
+      keywords: 'message, message therapy, spa',
       lang: 'en',
       repository: { ...repositoryDefault, ...repository },
     },

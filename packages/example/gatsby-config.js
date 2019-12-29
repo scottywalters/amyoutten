@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Amy outten - Massage Therapy',
-    description: 'Message therapy by Amy outten',
+    title: 'Amy Outten - Massage Therapy',
+    description:
+      'Amy Outten is a licensed Massage Therapist in Fernandina Beach, Florida.',
     keywords: 'message,spa,relax,renew',
   },
   pathPrefix: `/gtc`,
